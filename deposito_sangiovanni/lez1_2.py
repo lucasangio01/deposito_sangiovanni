@@ -5,8 +5,8 @@ from sklearn.ensemble import RandomForestClassifier
 from imblearn.over_sampling import SMOTE
 
 
-def load_data():
-    data = pd.read_csv("../data/creditcard.csv")
+def load_data(path):
+    data = pd.read_csv(path)
     return data
 
 def split_data(data):
