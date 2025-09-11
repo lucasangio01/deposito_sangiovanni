@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "deposito-sangiovanni"
+version = "0.1.0"
+description = ""
+authors = ["lucasangio01 <luca.sangiovanni.2001@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^2.3.3"
+pandas = "^2.3.2"
+scikit-learn = "^1.7.2"
+jupyter = "^1.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
